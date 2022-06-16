@@ -41,7 +41,7 @@ background:rgba(17, 17, 17, 0.986);
    font-weight:300;
    /* z-index:20; */
    line-height:60px;
-   font-size:2em;
+   font-size:0.5em;
     } 
 
 
@@ -304,6 +304,7 @@ font-size:2em;
 .show{left:0}
 
 .contenido{
+    
     height:400px;
 display:block;
 /* align-items:center; */
