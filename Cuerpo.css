@@ -305,12 +305,13 @@ font-size:2em;
 .show{left:0}
 
 .contenido{
+   
 display:block;
 /* align-items:center; */
 }
 
 .presentacion{
-  width:100%;
+  width:90%;
 display:block;
 
 }
