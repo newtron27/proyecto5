@@ -203,11 +203,17 @@ width:100%;
 
 /* border:1px solid red; */
 }
+
+
 .habilidades{
   width:90%;
   margin:auto;
 display:flex;
 flex-wrap:wrap;
+}
+
+.habilidades>h1{
+    display:block;
 }
 .habilidades>article{
 
