@@ -213,7 +213,8 @@ flex-wrap:wrap;
 }
 
 .habilidades>h1{
-    display:block;
+    width:100%;
+display:block;
 }
 .habilidades>article{
 
