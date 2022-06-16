@@ -282,6 +282,7 @@ height:-100%;
 background:rgb(83, 146, 228);
 /* padding-top:4em; */
 display:block;
+      z-index:0;
 position:absolute;
 left:-100%;
 
