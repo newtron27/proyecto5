@@ -41,14 +41,14 @@ background:rgba(17, 17, 17, 0.986);
    color:white;
    font-weight:300;
    /* z-index:20; */
-   line-height:50px;
-   font-size:33px;
+   line-height:60px;
+   font-size:40px;
     } 
 
 
   .navegacion{
     width:500px;
-  line-height:50px;
+  line-height:60px;
   position:relative;
   z-index:1;
   display:flex;
