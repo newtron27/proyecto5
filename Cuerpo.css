@@ -199,7 +199,7 @@ opacity:0.7;
 
 /* habilidades */
 .main{
-width:70%;
+width:100%;
 margin:;
 /* border:1px solid red; */
 }
@@ -305,7 +305,7 @@ font-size:2em;
 .show{left:0}
 
 .contenido{
-   
+    height:400px;
 display:block;
 /* align-items:center; */
 }
@@ -313,7 +313,7 @@ display:block;
 .presentacion{
   width:90%;
 display:block;
-
+font-size:30px;
 }
 .menuRedes{
   width:100%;
