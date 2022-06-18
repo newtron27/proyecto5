@@ -102,7 +102,7 @@ background:rgba(17, 17, 17, 0.986);
 
 
 .contenido{
-  width:90%;
+  width:77%;
   margin:70px auto;
   padding-top:1em;
  
@@ -217,7 +217,7 @@ text-align:center;
 /* border:1px solid red; */
 position: relative;
 margin:20px auto;
-background:#333;
+background:c6e1eb;
 
 border-radius:20px;
 }
@@ -381,7 +381,7 @@ font-size:2em;
 .show{left:0}
 
 .contenido{
-/*     width:90%; */
+    width:90%;
 /*     height:400px; */
 /* display:block; */
 /* align-items:center; */
