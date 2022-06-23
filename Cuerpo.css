@@ -5,6 +5,7 @@
   font-family:Arial;
           }
      body{
+      width: 100%;
       background:white;
       min-height:100vh;
       position: relative;
@@ -72,11 +73,7 @@ background:rgba(17, 17, 17, 0.986);
     font-size:1em;
     font-weight:100;
     }
-   .texto:hover{
-   border:1px solid white;
-   transition:4s;
-  }
- 
+  
     
     /* input */
     
@@ -101,46 +98,54 @@ background:rgba(17, 17, 17, 0.986);
 
 
 
-.contenido{
-  width:100%;
-  margin:70px auto;
-  padding-top:1em;
 
+/* habilidades */
+.main{
+
+width:100%;
+margin:auto;
+/* margin:70%; */
+padding-bottom:1em;
+
+/* border:1px solid red; */
+}
+
+
+.contenido{
+  width:96%;
+  margin:65px auto;
+  padding-top:1em;
   text-align:center;
-  background-image:url('img1.jpg');
-  /* background:red;s */
- 
+  background-image:url('img1.jpg'); 
   animation:movimiento 10s  infinite linear alternate;
  
   }
-  @keyframes movimiento{
-    from{
-    background-position:bottom left;
-    }
-    to{
-    background-position:left right;
-    }
-        }
 
- .presentacion{
+@keyframes movimiento{
+from{
+background-position:bottom left;
+}
+to{
+background-position:left right;
+}
+}
+
+.presentacion{
 margin:1.5em;
-width:50%;
 color:white;
 display:inline-block;
 position:relative;
-/* border:1px solid white; */
 font-family: arial;
- }
- .presentacion>h1{
+}
+.presentacion>h1{
 font-size:4em;
-
- }
+}
 
 .parrafo{
 margin:2em;
 font-family:Arial;
 font-size:1em;
- }
+}
 .btnINFO{
 
 background:rgba(20, 20, 20, 0.418);
@@ -156,22 +161,21 @@ color:white;
 /* transition:1s; */
 }
 .btnINFO:active{
-  background:rgba(87, 86, 86, 0.418);
-  
+background:rgba(87, 86, 86, 0.418);
+
 
 }
 
- .menuRedes{
-  /* border:1px solid; */
+.menuRedes{
+/* border:1px solid; */
 display:inline-block;
 width:5em;
 
 } 
 
 .itemredes{
-  
-  color:white;
-  padding:0.2em;
+color:white;
+padding:0.2em;
 text-decoration:none;
 display:block;
 /* background:#333; */
@@ -180,33 +184,21 @@ opacity:0.7;
 
 }
 .facebook{
-  background:rgb(78, 118, 228);
-  
+background:rgb(78, 118, 228);
+
 }
 .Instagram{
-  background:rgb(134, 62, 201);
+background:rgb(134, 62, 201);
 }
 .Twiter{
-  background:rgb(14, 37, 100);
+background:rgb(14, 37, 100);
 }
 .Gmail{
-  background:rgb(202, 69, 69);
+background:rgb(202, 69, 69);
 }
 
 
 
-
-
-/* habilidades */
-.main{
-
-width:80%;
-margin:auto;
-/* margin:70%; */
-padding-bottom:1em;
-
-/* border:1px solid red; */
-}
 .habilidades{
   font-family:Arial;
 width:100%;
@@ -216,50 +208,21 @@ align-items:center;
 position: relative;
 margin:20px auto;
 background-position:50%; 
-opacity:;
-}
-.habilidades>h2{
-color:rgb(156, 154, 154);
-width:100%;
-font-weight:1000;
-/* border-bottom:0.3px solid white; */
-}
-.habilidades>div{
-  
-/* font-size:14px; */
-width:250px;
-margin:0.5em;
-text-align: center;
-background:#444;
-margin-left:4em;
-/* padding:1em; */
-}
-.div{
-  /* position:absolute; */
-  /* left:-100%; */
 
 }
 
-.habilidades>div:hover{
+
+ aside{
+  width:80%;
+  margin:auto;
+  background:rgb(146, 144, 141);
  
-  color:black;
-  }
   
-
-.habilidades>div>h3{
- width:100%;
-font-size:1em;
-background:white;
-box-sizing:border-box;
-
+}aside>p{
+  color:white;
+padding:2em;
 
 }
-.habilidades>div>p{
- padding:0.3em;
-font-weight:bolder;
-color:white;
-border-bottom:1px solid white;
- }
 
 
 aside{
@@ -273,6 +236,14 @@ aside{
 padding:2em;
 
 }
+
+
+/* }aside>p{
+  color:white;
+padding:2em;
+
+} */
+
 /* 
 .habilidades{
 
@@ -347,6 +318,7 @@ bottom:0;
     header{
     line-height:3em;
     box-sizing:border-box;
+    
     }
     
     .logo{
@@ -355,40 +327,49 @@ border-bottom:1px solid white;
     }
   .navegacion{
 width:100%;
-height:-100%;
-background:rgb(83, 146, 228);
-/* padding-top:4em; */
+height:100vh;
+/* background:rgb(83, 146, 228); */
+background:rgba(63, 143, 209, 0.767);
 display:block;
-      z-index:0;
+ z-index:0;
 position:absolute;
-left:-100%;
-
+top:-1000%;
+text-align:center;
    }
     
 .item{
   display:block;
+ padding:0;
+  }
+
+  .item:hover{
+    background:#3333;
+
+
   }
 .texto{
-margin:1px;
 margin-top:0;
-font-size:1.5em;
+font-size:1em;
  }
-     
+
 .btn__menu{
 display:inline;
-font-size:2em;
+font-size:1em;
 }
-.show{left:0}
+.show{top:100%;
+
+transition:1s;
+}
 
 .contenido{
-    width:99%;
+    width:100%;
 /*     height:400px; */
 /* display:block; */
 /* align-items:center; */
 }
 
 .presentacion{
-  width:99%;
+  width:100%;
 display:block;
 
 }
