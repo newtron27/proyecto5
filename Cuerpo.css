@@ -284,7 +284,7 @@ background:rgba(63, 143, 209, 0.767);
 display:block;
  z-index:0;
 position:absolute;
-top:-1000%;
+top:-4000%;
 text-align:center;
    }
     
@@ -306,7 +306,7 @@ font-size:1em;
 .btn__menu{
 display:inline;
 visibility:visible;
-font-size:1.9em;
+font-size:1.6em;
 position:absolute;
 top:14px;
 }
@@ -317,18 +317,12 @@ transition:1s;
 
 .contenido{
     width:100%;
-/*     height:400px; */
-/* display:block; */
-/* align-items:center; */
 }
 
 .presentacion{
-  width:100%;
 display:block;
-
 }
 .menuRedes{
-    borde:1px solid red;
   width:100%;
   display:block;
 
