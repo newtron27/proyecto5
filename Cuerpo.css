@@ -23,14 +23,14 @@ padding-bottom:3EM;
     header{
  width:100%;
  display:flex;
- justify-content:space-evenly;
+justify-content:space-evenly;
 font-family:sans-serif;
-
 position:fixed;
 top:0;
-left:0;
+/* left:0; */
 z-index:1;
-/* background:rgb(98, 141, 235); */
+align-items:center;
+
 background:rgba(17, 17, 17, 0.986);
 
   
@@ -39,39 +39,38 @@ background:rgba(17, 17, 17, 0.986);
 
     .Logo{
    color:white;
-   font-weight:300;
-   /* z-index:20; */
-   line-height:60px;
-   font-size:1.5em;
+   display:inline;
+   font-size:27px;
     } 
 
 
   .navegacion{
-    width:500px;
-  line-height:60px;
-/*   position:relative; */
+   
   z-index:1;
-  display:flex;
+  display:inline-block;
   flex-wrap:nowrap;
+  /* border:1px solid red; */
    }
     
   .item{
   display:inline-block;
   list-style:none;
-  
-   
+  margin-left: 3em;
+   padding:1em;
     }
     .item:hover{
-    transition:0.4s;
+    /* transition:0.4s; */
+     background:#333;
+
     }
     
     .texto{
-    /* padding:0.2em; */
     text-decoration:none;
     color:white;
-    margin:2em;
-    font-size:1em;
-    font-weight:100;
+    /* color:rgb(54, 54, 54); */
+    font-size:14px;
+    display:block;
+   
     }
   
     
@@ -94,6 +93,10 @@ background:rgba(17, 17, 17, 0.986);
     background:#3333;
     
     }
+    .fa-solid{
+display:block;
+
+    }
   /* cuerpo */
 
 
@@ -113,8 +116,9 @@ padding-bottom:1em;
 
 
 .contenido{
-  width:96%;
-  margin:65px auto;
+  width:100%;
+  height:200px;
+  margin:49px auto;
   padding-top:1em;
   text-align:center;
   background-image:url('img1.jpg'); 
@@ -184,20 +188,16 @@ margin-top:1em;
 opacity:0.7;
 
 }
-.facebook{
+.fa-facebook{
+/* background: */
 background:rgb(78, 118, 228);
-
+color:white;
+padding:0.1em;
 }
-.Instagram{
-background:rgb(134, 62, 201);
+.fa-instagram{
+  text-decoration:none;
+  color:red;
 }
-.Twiter{
-background:rgb(14, 37, 100);
-}
-.Gmail{
-background:rgb(202, 69, 69);
-}
-
 
 
 .habilidades{
@@ -270,6 +270,7 @@ bottom:0;
     line-height:3em;
     box-sizing:border-box;
     /* position: relative; */
+    background:rgba(63, 143, 209, 0.767);
     }
     
     .logo{
@@ -281,26 +282,33 @@ width:100%;
 height:100vh;
 /* background:rgb(83, 146, 228); */
 background:rgba(63, 143, 209, 0.767);
-display:block;
+display:inline-block;
  z-index:0;
 position:absolute;
 top:-4000%;
 text-align:center;
+
    }
     
 .item{
+  margin:0;
   display:block;
  padding:0;
+color:white;
+margin-top:1em;
   }
 
   .item:hover{
-    background:#3333;
-
+    transition:2s;
+    background:none;
+    box-shadow:12px 10px 12px white;
 
   }
 .texto{
 margin-top:0;
 font-size:1em;
+color:rgb(228, 178, 102);
+color:white;
  }
 
 .btn__menu{
