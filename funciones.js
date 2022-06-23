@@ -9,23 +9,10 @@ logo=document.querySelector('.lo');
 Habilidades=document.querySelector('.habilidades')
 
 
-DIV=Habilidades.querySelectorAll('div')
-
-Habilidades.addEventListener('click',()=>{
-DIV.classList.toggle('desplazamiento')
-
-// alert('hola');
-}
-)
-
-
-
-
-
 
 
 function EVENmenu (){
-btonMENU.addEventListener('click',(e)=>{
+btn.addEventListener('click',(e)=>{
 
 menu.classList.toggle('show')
 
