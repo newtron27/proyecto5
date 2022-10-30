@@ -35,36 +35,36 @@ font-size:22px;
  text-decoration:none;
 list-style:none;
 display:inline-block;
-padding:2em;
+padding:1em;
+margin-left:4em ;
 
  }
 
 .item:hover{
 color:aqua;
+border-bottom:1px solid rgb(190, 186, 186);
 }
     
 .texto{
 text-decoration:none;
-color:rgb(57, 136, 211);
+color:rgb(140, 174, 204);
 font-size:18px;
-border:0.5px solid rgb(192, 186, 186);
-padding:1em;
-}
-.texto:hover{
-color:black;
+/* border:0.5px solid rgb(192, 186, 186); */
+padding:0.5em;
 }
 
 #Contacto{
-color:white;
 padding:3em;
-
+background:white;
   }
+
+
     
  #sobremi{padding:4em;}
   
   .generalEstilos{
     background:rgba(34, 115, 197, 0.76);
-    margin-top:40em;
+    margin-top:3em;
     color: white;
   }
     /* input */
@@ -117,47 +117,69 @@ bottom:0;
 
 
 
-
-    /* "mediasqueris" */
+     /* "mediasqueris" */
     @media (max-width: 800px) {
     
-    
-    header{
-    line-height:3em;
-    box-sizing:border-box;
-    /* position: relative; */
-    background:rgba(63, 143, 209, 0.767);
-    }
-    
+
+header{
+  width:100%;
+  display:flex;
+  flex-wrap:wrap;
+line-height:3em;
+box-sizing:border-box;
+position:relative; 
+background:#333;
+color:white;
+ /* background:rgba(63, 143, 209, 0.767);  */
+}
+   
+.fa-solid{
+  color:white;
+  /* display:inline; */
+}
 .logo{
   font-size:33px;
+  /* color:white; */
+}
+.navegacion{
+width:100%;
+z-index:0;
+text-align:center;
+padding:0;
+display:none;
+
+}
+.item{
+display:block;
+margin:0;
+padding:0;
+}
+.texto{
   color:white;
 }
-  .navegacion{
-width:100%;
-height:100vh;
-/* background:rgb(83, 146, 228); */
-background:rgba(63, 143, 209, 0.767);
-display:inline-block;
- z-index:0;
-position:absolute;
-top:-4000%;
-text-align:center;
-
-   }
-    
+.texto:hover{
+  /* border:1px solid white; */
+  
+  }
 
 .btn__menu{
-/* color:black; */
 font-size:30px;
-
+visibility:visible;
+top:10px;
+color:white;
 }
   
 #sobremi{
-  background:red;
-}
 
-    }
+}
+.show{
+  transition:1s;
+  display:block;
+      }
+  
+
+
+    } 
 
 
 
