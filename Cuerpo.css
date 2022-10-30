@@ -4,79 +4,62 @@
     padding:0;
   
   }
-     body{
-  width: 100%;
-  background:white;
-  min-height:100vh;
- position: relative;
-padding-bottom:3EM;
+  
+
+body{
+background:white;
+min-height:100vh;
+ position:relative;
+/* padding-bottom:3EM; */
 }
 
 header{
-width:100%;
-/* height:200px; */
-/* display:flex; */
-justify-content:space-evenly;
-font-family:sans-serif;
-position:fixed;
-top:0;
-z-index:1;
-align-items:center;
-/* background:rgb(56, 63, 70); */
+  width:90%;
+margin:auto;
+text-align: center;
     }
 
+ .Logo{
+font-size:40px;
+/* border-bottom:1px solid black ; */
+ }
+ .yo{
+font-size:22px;
 
-  .Logo{
-   color:white;
-   /* display:inline; */
-   font-size:27px;
-    } 
-
-
-  .navegacion{
-  z-index:1;
-  /* display:inline-block; */
-  /* flex-wrap:nowrap; */
+ }
+.navegacion{
+ padding:3em;
   }
     
-  .item{
-  display:inline-block;
-  list-style:none;
-  margin-left: 3em;
-  padding:1em;
+.item{
+ text-decoration:none;
+list-style:none;
+display:inline-block;
+padding:2em;
 
-    }
-    .item:hover{
-    /* transition:0.4s; */
-     /* background:rgb(141, 140, 140); */
+ }
 
-    }
+.item:hover{
+color:aqua;
+}
     
-    .texto{
-    text-decoration:none;
-    color:black;
-    /* color:rgb(54, 54, 54); */
-    font-size:14px;
-    display:block;
-   
-    }
+.texto{
+  text-decoration:none;
+  color:rgb(114, 181, 243);
+  font-size:18px;
+}
+.texto:hover{
+  color:black;
+  }
 
-    #inicio{
-      margin-top:10em;
 
-padding:4em;
-    }
   #Contacto{
-
 color:white;
 padding:3em;
 
   }
     
-  #sobremi{
-
-padding:4em;
-  }
+ #sobremi{padding:4em;}
   
   .generalEstilos{
     background:rgba(34, 115, 197, 0.76);
@@ -141,7 +124,6 @@ bottom:0;
     header{
     line-height:3em;
     box-sizing:border-box;
-    border-bottom:1px solid black;
     /* position: relative; */
     background:rgba(63, 143, 209, 0.767);
     }
@@ -170,6 +152,9 @@ font-size:30px;
 
 }
   
+#sobremi{
+  background:red;
+}
 
     }
 
