@@ -44,16 +44,17 @@ color:aqua;
 }
     
 .texto{
-  text-decoration:none;
-  color:rgb(114, 181, 243);
-  font-size:18px;
+text-decoration:none;
+color:rgb(57, 136, 211);
+font-size:18px;
+border:0.5px solid rgb(192, 186, 186);
+padding:1em;
 }
 .texto:hover{
-  color:black;
-  }
+color:black;
+}
 
-
-  #Contacto{
+#Contacto{
 color:white;
 padding:3em;
 
@@ -130,7 +131,7 @@ bottom:0;
     
 .logo{
   font-size:33px;
-border-bottom:1px solid white;
+  color:white;
 }
   .navegacion{
 width:100%;
@@ -147,7 +148,7 @@ text-align:center;
     
 
 .btn__menu{
-color:black;
+/* color:black; */
 font-size:30px;
 
 }
