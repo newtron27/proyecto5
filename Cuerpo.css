@@ -141,6 +141,7 @@ bottom:0;
     header{
     line-height:3em;
     box-sizing:border-box;
+    border-bottom:1px solid black;
     /* position: relative; */
     background:rgba(63, 143, 209, 0.767);
     }
