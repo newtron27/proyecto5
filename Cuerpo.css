@@ -122,30 +122,13 @@ padding-bottom:1em;
   margin:49px auto;
   padding-top:1em;
   text-align:center;
-  background-image:url('img1.jpg'); 
-  animation:movimiento 10s  infinite linear alternate;
  
   }
 
-@keyframes movimiento{
-from{
-background-position:bottom left;
-}
-to{
-background-position:left right;
-}
-}
 
-.presentacion{
-margin:1.5em;
-color:white;
-display:inline-block;
-position:relative;
-font-family: arial;
-}
-.presentacion>h1{
-font-size:4em;
-}
+
+
+
 
 .parrafo{
 margin:2em;
