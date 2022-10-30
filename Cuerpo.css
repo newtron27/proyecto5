@@ -138,6 +138,7 @@ bottom:0;
     }
     
 .logo{
+  font-size:33px;
 border-bottom:1px solid white;
 }
   .navegacion{
@@ -153,20 +154,9 @@ text-align:center;
 
    }
     
-.item{
-  margin:0;
-  display:block;
- padding:0;
-color:white;
-margin-top:1em;
-  }
 
-  .item:hover{
-    transition:2s;
-    background:none;
-    box-shadow:12px 10px 12px white;
 
-  }
+  
 
     }
 
