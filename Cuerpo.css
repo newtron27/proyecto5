@@ -21,13 +21,13 @@ padding-bottom:3EM;
   
     
     header{
- width:100%;
- display:flex;
+width:100%;
+display:flex;
 justify-content:space-evenly;
 font-family:sans-serif;
 position:fixed;
 top:0;
-/* left:0; */
+left:0;
 z-index:1;
 align-items:center;
 
@@ -103,7 +103,7 @@ display:block;
 .main{
 width:100%;
 margin:auto;
-padding-bottom:1em;
+/* padding-bottom:1em; */
 
 }
 
