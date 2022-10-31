@@ -210,7 +210,8 @@ font-size:19px;
 }
 
 .starlin{
-  width: 50%;
+  width:50%;
+  align-content:center;
 }
 .show{
   transition:1s;
