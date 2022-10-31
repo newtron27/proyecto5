@@ -1,11 +1,11 @@
 
 
- btonMENU=document.getElementById("check");
-btn=document.querySelector('.btn__menu')
-buscador=document.querySelector('.form');
-menu=document.querySelector('.navegacion');
-
-
+ const btonMENU=document.getElementById("check");
+const btn=document.querySelector('.btn__menu')
+const buscador=document.querySelector('.form');
+const menu=document.querySelector('.navegacion');
+const modalbiografi=document.querySelector('.Biografia')
+const imagen=document.querySelector('.starlin')
 
 
 
@@ -15,15 +15,19 @@ menu.classList.toggle('show')
 
 })
 
-const modalbiografi=document.querySelector('#sobremi')
 
 
 
 
 setTimeout(() => {
-    modalbiografi.style.visibility='visible'
-    modalbiografi.style.display='block'
-    
-  
+    modalbiografi.style.visibility='visible';
+   
 
-},0100);
+},100);
+
+setTimeout(() => {
+    imagen.style.visibility='visible'
+    
+    
+
+},1100);
