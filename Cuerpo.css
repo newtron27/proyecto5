@@ -77,9 +77,11 @@ color:rgb(143, 140, 140);;
 }
   
   .generalEstilos{
-    background:rgba(34, 115, 197, 0.76);
+
+    /* background:rgba(34, 115, 197, 0.76);
     margin-top:3em;
-    color: white;
+    color: white;*/
+    border-bottom:1px solid rgb(172, 167, 167) ; 
   }
     /* input */
     
@@ -202,7 +204,7 @@ color:white;
 
 .Biografia{
 
-  width:90%;
+  width:97%;
 padding:1em;
 font-size:19px;
 }
