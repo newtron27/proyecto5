@@ -9,48 +9,50 @@
 body{
 background:white;
 min-height:100vh;
- position:relative;
 /* padding-bottom:3EM; */
 }
 
-header{
-  width:90%;
-margin:auto;
-text-align: center;
+header{  
+display:flex;
+border:1px solid white;
+padding:0,6em;
+font-family:apple-system;
+justify-content:space-evenly;
+background:#333;
+text-align:center;
+color:white;
     }
-
  .Logo{
 font-size:40px;
 /* border-bottom:1px solid black ; */
  }
- .yo{
-font-size:22px;
 
- }
 .navegacion{
- padding:3em;
+  /* background:red; */
+
   }
     
 .item{
  text-decoration:none;
+ text-align:start;
 list-style:none;
 display:inline-block;
 padding:1em;
-margin-left:4em ;
-
+margin:em;
+/* background:red; */
  }
 
 .item:hover{
-color:aqua;
+
+background:rgba(112, 109, 109, 0.2);
 border-bottom:1px solid rgb(190, 186, 186);
 }
     
 .texto{
 text-decoration:none;
-color:rgb(140, 174, 204);
+ color:white; 
 font-size:18px;
 /* border:0.5px solid rgb(192, 186, 186); */
-padding:0.5em;
 }
 
 #Contacto{
@@ -89,7 +91,7 @@ background:white;
     }
     .fa-solid{
 display:block;
-color:black;
+color:white;
     }
   /* cuerpo */
 
@@ -122,15 +124,13 @@ bottom:0;
     
 
 header{
-  width:100%;
-  display:flex;
-  flex-wrap:wrap;
-line-height:3em;
-box-sizing:border-box;
-position:relative; 
+width:100%;
+display:flex;
+justify-content:space-evenly;
+flex-wrap:wrap;
+/* box-sizing:border-box; */
 background:#333;
 color:white;
- /* background:rgba(63, 143, 209, 0.767);  */
 }
    
 .fa-solid{
@@ -143,16 +143,18 @@ color:white;
 }
 .navegacion{
 width:100%;
+margin-top:2em;
 z-index:0;
 text-align:center;
 padding:0;
 display:none;
+margin:0;
 
 }
 .item{
 display:block;
-margin:0;
-padding:0;
+margin-left:0;
+padding:1em;
 }
 .texto{
   color:white;
