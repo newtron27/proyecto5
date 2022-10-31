@@ -67,7 +67,9 @@ background:white;
 
 
     
- #sobremi{padding:4em;}
+ #sobremi{padding:4em;
+background: rgb(238, 235, 235);
+}
   
   .generalEstilos{
     background:rgba(34, 115, 197, 0.76);
@@ -101,11 +103,19 @@ color:white;
   /* cuerpo */
 
 .main{
-width:100%;
+width:90%;
 margin:auto;
 
 }
 
+.Biografia{
+
+  width:40%;
+background:orange;
+padding:1em;
+color:white;
+font-size:19px;
+}
 
 
 .footer{
