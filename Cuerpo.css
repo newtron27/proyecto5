@@ -70,20 +70,24 @@ color:rgb(143, 140, 140);;
 
 }
     
- #sobremi{padding:4em;
-  /* border:1px solid red; */
+ #sobremi{
+  
+  visibility:hidden;
+  padding:4em;
   align-content:center;
-/* background: rgb(238, 235, 235); */
+  display:none;
+ 
+}
+
+.efecto{
+
+
 }
   
   .generalEstilos{
-
-    /* background:rgba(34, 115, 197, 0.76);
-    margin-top:3em;
-    color: white;*/
     border-bottom:1px solid rgb(172, 167, 167) ; 
   }
-    /* input */
+   
     
    
     .btn__menu{
@@ -114,6 +118,7 @@ width:90%;
 margin:auto;
 
 }
+
 
 .Biografia{
 
@@ -203,7 +208,6 @@ color:white;
 }
 
 .Biografia{
-
   width:97%;
 padding:1em;
 font-size:19px;

@@ -15,4 +15,15 @@ menu.classList.toggle('show')
 
 })
 
+const modalbiografi=document.querySelector('#sobremi')
 
+
+
+
+setTimeout(() => {
+    modalbiografi.style.visibility='visible'
+    modalbiografi.style.display='block'
+    
+  
+
+},0100);
