@@ -19,12 +19,14 @@ left:0;
 top:0;
 right: 0;
 border:1px solid white;
-padding:0,6em;
+padding:0.2em;
 font-family:apple-system;
+font-size:19px;
 justify-content:space-evenly;
 background:#333;
 text-align:center;
 color:white;
+overflow-y:hidden;
     }
  .Logo{
 font-size:28px;
@@ -43,14 +45,16 @@ line-height:2em;
 list-style:none;
 display:inline-block;
 padding:1em;
-margin:em;
+margin-left:22px;
 /* background:red; */
  }
 
 .item:hover{
 
 background:rgba(112, 109, 109, 0.2);
-border-bottom:1px solid rgb(190, 186, 186);
+outline: 3px solid #4bb6f5;
+outline-offset: -10px;
+/* transition:1s; */
 }
     
 .texto{
@@ -88,9 +92,10 @@ font-size:33px;
     
    
     .btn__menu{
-      line-height:50px;
+      /* line-height:50px; */
     position:absolute;
     right:10px;
+    top:22px;
     color:white;
     cursor:pointer;
     display:none;
@@ -176,9 +181,11 @@ width:100%;
 display:flex;
 justify-content:space-evenly;
 flex-wrap:wrap;
-/* box-sizing:border-box; */
+/* overflow: hidden; */
 background:#333;
 color:white;
+box-sizing:border-box;
+
 }
    
 .fa-solid{
@@ -191,31 +198,30 @@ color:white;
 }
 .navegacion{
 width:100%;
+height:100vh;
 margin-top:2em;
 z-index:0;
 text-align:end;
-padding:0;
+padding-left:0;
 display:none;
-margin:0;
+
 
 }
 .item{
 display:block;
+/* padding:1em; */
 margin-left:0;
-padding:1em;
 }
 .texto{
   color:white;
+  font-size:22px;
 }
-.texto:hover{
-  /* border:1px solid white; */
-  
-  }
+
 
 .btn__menu{
 font-size:30px;
 visibility:visible;
-top:10px;
+top:17px;
 color:white;
 }
   
@@ -226,7 +232,7 @@ color:white;
 
 .Biografia{
   width:99%;
-/* padding:1em; */
+ /* padding:em; */
 font-size:23px;
 
 }
