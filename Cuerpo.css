@@ -137,13 +137,13 @@ justify-content:space-evenly;
 
 vertical-align:center;
 flex-wrap:wrap;
-margin-top:3em;
-padding-top:13em;
+margin-top:2em;
+padding-top:10em;
  }
 
  .saludo{
   /* font-weight:300; */
-  font-size:60px;
+  font-size:53px;
   font-weight:200;
   font-style: oblique;
 vertical-align: auto;
@@ -308,24 +308,26 @@ padding:1em;
 }
 
 .Biografia{
-  width:100%;
+  width:90%;
 margin:auto;
-
  /* text-align: center; */
 
 }
 
 .saludar{
   margin-top:0;
-  padding-top:18%;
-  text-align:center;
+  padding-top:6em;
+  /* text-align:center; */
 }
 .sobremi{
 width:100%;
 padding:0;
 
 }
+.broma{
+margin-top:-1em;
 
+}
 
 .show{
 display: block;
@@ -367,7 +369,21 @@ margin-top:0;
       .Imagen{
 width:100%;
 
-      }
+      
+}
+
+
+
+
+/* contacto */
+.Contacto{
+  height:300px;
+}
+.Contacto input{
+width:100%;
+border:none;
+outline:none;
+}
 
     } 
 
