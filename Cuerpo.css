@@ -80,12 +80,9 @@ text-decoration:none;
 
 
 .Biografia{
-  width:90%;
+width:90%;
 margin:auto;
-
-margin-top:30px;
-padding:3EM;
- /* text-align: center; */
+/* border:1px solid ; */
  
 }
 
@@ -134,23 +131,39 @@ border-radius:100%;
 
     .saludar{
 width:90%;
-margin:auto;
-align-content:center;
 display:flex;
-flex-wrap:wrap;
-padding:7em;
-/* border:1px solid red; */
+margin:auto;
+justify-content:space-evenly;
 
-    }
+vertical-align:center;
+flex-wrap:wrap;
+margin-top:3em;
+padding-top:13em;
+ }
+
+ .saludo{
+  /* font-weight:300; */
+  font-size:60px;
+  font-weight:200;
+  font-style: oblique;
+vertical-align: auto;
+ }
+
   
 .broma{
   width:100%;
   font-style:italic;
-  font-size:27PX;
+  font-size:20PX;
   padding:1em;
+  padding-top:3em;
   color:green;
   text-align:start;
   margin-bottom:0;
+
+  text-align: center;
+  /* text-orientation: upright; */
+
+
 }
     .parraB{
   
@@ -167,36 +180,28 @@ color:white;
 
     }
   /* cuerpo */
+  .main{
+    width:90%;
+    margin:auto;
+    
+    }
+    
 
-.main{
-width:90%;
-margin:auto;
-
-}
 
 
-.saludo{
- 
-  width:70%;
-font-size:37px;
-font-style: oblique;
-text-transform:unset;
-letter-spacing:2px;
-margin:auto;
-}
 .sobremi{
   
-  border:1px solid red;
+  /* border:1px solid red; */
 padding:4em;
-
+line-height:8em;
 }
 
 
-.saludo>span{
-padding:1em;
-color:orange;
-
-text-decoration:underline;
+.Nombre{
+  
+  color:blue;
+  font-size:23px;
+  text-decoration:underline;
 }
 
 .btnCredencial{
@@ -301,17 +306,21 @@ padding:1em;
 }
 
 .Biografia{
-  width:90%;
+  width:100%;
 margin:auto;
 padding:0;
+margin-top:20%;
  /* text-align: center; */
  font-size:2px;
 }
 .sobremi{
 width:100%;
+padding:0;
+}
+.yo{
+width:100px;
 
 }
-
 
 .btn__menu{
 font-size:30px;
@@ -323,18 +332,12 @@ color:white;
 
 
 
-/* .saludo{
- 
-  width:200px;
-font-size:30px;
+      
+.saludo{
+font-size:22px;
 
+}
 
-} */
-
-/* .saludar{
-width: ;
-margin-top:3em;
-} */
 .starlin{
   width:50%;
  
