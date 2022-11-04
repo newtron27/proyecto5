@@ -299,6 +299,8 @@ margin-left:0;
 padding:1em;
 
 }
+
+    
 .texto{
   color:white;
   font-size:22px;
@@ -308,44 +310,59 @@ padding:1em;
 .Biografia{
   width:100%;
 margin:auto;
-padding:0;
-margin-top:20%;
+
  /* text-align: center; */
- font-size:2px;
+
+}
+
+.saludar{
+  margin-top:0;
+  padding-top:18%;
+  text-align:center;
 }
 .sobremi{
 width:100%;
 padding:0;
+
 }
-.yo{
-width:100px;
+
+
+.show{
+display: block;
+}
+
+.sobremi{
+/* line-height:40px; */
+}
+
+.parraB{
+/* line-height:40px; */
+
+}
+
+.herramientas{
+padding:10em 4em;
 
 }
 
 .btn__menu{
-font-size:30px;
-visibility:visible;
-top:22px;
-color:white;
-}
-  
-
+  font-size:30px;
+  visibility:visible;
+  top:22px;
+  color:white;
+  }
 
 
       
 .saludo{
-font-size:22px;
-
+font-size:38px;
+margin-top:0;
 }
 
-.starlin{
+.yo{
   width:50%;
  
 }
-.show{
-  transition:1s;
-  display:block;
-      }
 
       .Imagen{
 width:100%;
