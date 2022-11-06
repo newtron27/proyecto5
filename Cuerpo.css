@@ -19,7 +19,7 @@ left:0;
 top:0;
 right: 0;
 border:1px solid white;
-padding:1em;
+padding:0.3em;
 /* padding:0.1em; */
 font-family:apple-system;
 font-size:19px;
@@ -36,6 +36,11 @@ margin-top:3px;
 /* border-bottom:1px solid black ; */
  }
 
+ .btnProyectos{
+
+border:0.3px solid rgb(0, 89, 255);
+padding:0.4em;
+ }
  .Logo:hover{
 font-size:30px;
 color:orange;
@@ -55,18 +60,14 @@ list-style:none;
 display:inline-block;
 padding:0.6em;
 margin-left:20px;
-
+font-size:17px;
 
 /* background:red; */
  }
 
-.item:hover{
 
-background:rgba(112, 109, 109, 0.2);
-
-}
  .item:focus{
-background:orange;
+  background:rgba(188, 182, 182, 0.2);
 
  }
     
@@ -130,25 +131,32 @@ border-radius:100%;
     }
 
     .saludar{
-width:90%;
+width:100%;
 display:flex;
 margin:auto;
 justify-content:space-evenly;
 
 vertical-align:center;
 flex-wrap:wrap;
+
 margin-top:2em;
 padding-top:10em;
+padding-left:10px;
  }
 
  .saludo{
-  /* font-weight:300; */
-  font-size:53px;
+  
+  font-size:16px;
   font-weight:200;
   font-style: oblique;
 vertical-align: auto;
  }
-
+ .tituloS{
+  margin-bottom:3em;
+  padding:1em;
+  font-size:33px;
+  font-weight:bold;
+  }
   
 .broma{
   width:100%;
@@ -167,12 +175,14 @@ vertical-align: auto;
 }
     .parraB{
   
-font-size:25px;
+font-size:18px;
 font-style:italic;
 font-weight:400;
-line-height:2em;
-text-decoration: cyan ;
+line-height:30px;
 list-style:square;
+/* background:#333; */
+/* color:white; */
+
     }
     .fa-solid{
 display:block;
@@ -182,7 +192,7 @@ color:white;
   /* cuerpo */
   .main{
     width:90%;
-    margin:auto;
+   
     
     }
     
@@ -190,32 +200,32 @@ color:white;
 
 
 .sobremi{
-  
-  /* border:1px solid red; */
-padding:4em;
-line-height:8em;
+/* width:100%; */
+padding:8em;
+line-height:4em;
+    /* border:1px solid red; */
 }
 
 
 .Nombre{
   
-  color:blue;
-  font-size:23px;
+  color:rgb(47, 145, 115);
+  font-size:30px;
   text-decoration:underline;
 }
 
 .btnCredencial{
   min-width:400px;
+  background:rgba(13, 174, 126, 0.83);
+  padding:0.4em;
+  color:white;
+  border:none;
 
-  background:rgba(116, 144, 223, 0.212);
-  padding:1em;
-border: 1PX solid rgb(124, 159, 241);
-color:black;
 }
 
-.btnCredencial:focus{
+/* .btnCredencial:focus{
 background:white;
-}
+} */
 
 .footer{
  width:100%;
@@ -233,27 +243,58 @@ visibility:hidden;
 
 .Imagen{
   width:700px;
-
+margin:2em auto;
   }
 
 .herramientas{
-padding:4em ;
-background:#3333;
+  width:800PX;
+  margin: 20px auto;
+/* background:#3333; */
 padding-bottom:2em;
+color:rgba(0, 0, 0, 0.645);
+display:block;
+}
+
+.mostrarHerramientas{
+display:block;
 
 }
   .herramientas h4{
     font-size:26px;
     /* color:rgb(133, 129, 129); */
        }
-       #Contacto{
-        padding:3em;
-        background:#333;
-        margin-top:20px;
-        color:white;
+       .Contacto{
+        width:900px;
+        margin:auto;
+        background: rgb(244, 238, 238);
+          /* border:1px solid; */
           }
+.Contacto form{
+width:70%;
+display:flex;
+flex-wrap:wrap;
+margin:auto;
+text-align:center;
+}
 
+form input{
+  width:500px;
+}
+.input{
+  padding:0.5em;
+  border:1px solid rgb(154, 155, 156);
+  margin-top:2em;
+  outline:none;
+}
+.mensaje{
+ width:60%;
+ height:30%;
+ }
 
+.input:focus{
+  background-color: rgba(51, 51, 51, 0.192);
+
+}
      /* "mediasqueris" */
     @media (max-width: 700px) {
     
@@ -275,16 +316,18 @@ box-sizing:border-box;
   /* display:inline; */
 }
 .logo{
-  font-size:33px;
+  font-size:28px;
   /* color:white; */
 }
 .navegacion{
 width:100%;
 height:80vh;
-margin-top:0;
+margin-top:1px;
+
+margin-left:none;
 z-index:0;
-text-align:end;
-padding-left:0;
+text-align:none;
+padding:0;
 display:none;
 font-family:Arial, Helvetica, sans-serif;
 
@@ -294,10 +337,11 @@ font-family:Arial, Helvetica, sans-serif;
 .item{
   margin-top:0;
 display:block;
+width:100%;
+font-size:7px;
+margin:0;
 
-margin-left:0;
-padding:1em;
-
+border-bottom:1px solid white ;
 }
 
     
@@ -315,15 +359,28 @@ margin:auto;
 }
 
 .saludar{
-  margin-top:0;
-  padding-top:6em;
+  padding:1.6em;
+  
   /* text-align:center; */
 }
-.sobremi{
-width:100%;
-padding:0;
 
+.tituloS{
+margin-bottom:3em;
+padding:1em;
+font-size:33px;
+font-weight:bold;
 }
+.sobremi{
+width:98%;
+margin:22px auto;
+
+padding:2em;
+border:0.1em solid rgb(186, 179, 179);
+}
+ .btnCredencial{
+margin-left:0;
+
+ }
 .broma{
 margin-top:-1em;
 
@@ -331,34 +388,31 @@ margin-top:-1em;
 
 .show{
 display: block;
-}
-
-.sobremi{
-/* line-height:40px; */
-}
-
-.parraB{
-/* line-height:40px; */
 
 }
+
 
 .herramientas{
-padding:10em 4em;
-
+  width:90%;
+  margin: auto;
+text-align:center;
+padding:10em 3em;
+/* border:1px solid red; */
 }
 
 .btn__menu{
   font-size:30px;
   visibility:visible;
-  top:22px;
+  top:10px;
   color:white;
   }
 
 
       
 .saludo{
-font-size:38px;
+font-size:17px;
 margin-top:0;
+
 }
 
 .yo{
@@ -375,19 +429,49 @@ width:100%;
 
 
 
-/* contacto */
+/* contacto celular */
 .Contacto{
-  height:300px;
+  width:100%;
+  padding:0;
+    }
+.Contacto form{
+width:90%;
+text-align:center;
+margin:auto;
+/* background: rgba(122, 120, 120, 0.63); */
+
+padding: 10em 0.3em;
+/* margin:1em; */
+border-radius:5%;
+
 }
-.Contacto input{
-width:100%;
-border:none;
+
+.input{
+  margin-top:2em;
+  margin-bottom:2em ;
+  border:none;
+}
+
+.mensaje{
+width:90%;
+height:100px;
 outline:none;
+outline-style:1px solid rgb(49, 90, 195);
 }
 
-    } 
-
-
+.input:focus{
+/* background-color:rgba(112, 106, 106, 0.835); */
+background:white;
+border:0.5px blue solid;
+}
+.BTNenvio{
+  width:200px;
+  margin-top:10px;
+  padding:0.5em;
+  border:0.5px solid blue;
+  border-radius:2%;
+}
+    }
 
 
 

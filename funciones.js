@@ -7,8 +7,9 @@ const menu=document.querySelector('.navegacion');
 const modalbiografi=document.querySelector('.Biografia')
 const imagen=document.querySelector('.starlin')
 const ContenedorSaludo=document.querySelector('.Biografia')
-
-
+const PROYECTObtn=document.querySelector('#btnProyectos')
+const cajaHERRAMIENTAS=document.querySelector('.herramientas')
+    
 btn.addEventListener('click',(e)=>{
 
 menu.classList.toggle('show')
@@ -21,6 +22,12 @@ window.addEventListener('load',()=>{
 })
 
 
+PROYECTObtn.addEventListener('click',(e)=>{
 
-
+    cajaHERRAMIENTAS.classList.toggle('mostrarHerramientas')
+    
+    })
+    
+   
+    
 
