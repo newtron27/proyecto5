@@ -263,36 +263,52 @@ display:block;
     font-size:26px;
     /* color:rgb(133, 129, 129); */
        }
-       .Contacto{
-        width:900px;
-        margin:auto;
-        background: rgb(244, 238, 238);
-          /* border:1px solid; */
-          }
-.Contacto form{
-width:70%;
-display:flex;
-flex-wrap:wrap;
-margin:auto;
-text-align:center;
+
+       
+.Contacto{
+ width:100%;
+
 }
 
-form input{
-  width:500px;
-}
+.Contacto form{
+width:40%;
+margin:auto;
+height:400px;
+border:1px solid rgba(208, 201, 201, 0.687);
+padding:2em;
+flex-wrap:wrap;
+border-radius:5%;
+box-shadow: 1px solid #333 ;
+} 
+
+
 .input{
+  
+  width:400px;
   padding:0.5em;
   border:1px solid rgb(154, 155, 156);
-  margin-top:2em;
+  margin-top:2.4em;
   outline:none;
 }
 .mensaje{
- width:60%;
- height:30%;
+ width:400px;
+ margin-top:1em;
+ padding:0.5em;
+ height:100px;
+ /* margin:2em ; */
  }
 
 .input:focus{
   background-color: rgba(51, 51, 51, 0.192);
+
+}
+.BTNenvio{
+width:220px;
+margin-top:2em;
+height:30px;
+color:white;
+border:0.1em rgb(103, 140, 221) solid;
+background:rgba(33, 100, 187, 0.798);
 
 }
      /* "mediasqueris" */
@@ -438,31 +454,29 @@ width:100%;
 width:90%;
 text-align:center;
 margin:auto;
-/* background: rgba(122, 120, 120, 0.63); */
 
-padding: 10em 0.3em;
+
 /* margin:1em; */
-border-radius:5%;
+
 
 }
 
 .input{
-  margin-top:2em;
-  margin-bottom:2em ;
-  border:none;
+
+  width:80%;
+  border:1px solid rgb(71, 140, 213);
 }
 
 .mensaje{
-width:90%;
+width:80%;
 height:100px;
 outline:none;
 outline-style:1px solid rgb(49, 90, 195);
 }
 
 .input:focus{
-/* background-color:rgba(112, 106, 106, 0.835); */
-background:white;
-border:0.5px blue solid;
+background:rgb(255, 255, 255);
+border:1px solid black;
 }
 .BTNenvio{
   width:200px;
@@ -470,6 +484,7 @@ border:0.5px blue solid;
   padding:0.5em;
   border:0.5px solid blue;
   border-radius:2%;
+  ba
 }
     }
 
