@@ -16,10 +16,6 @@ menu.classList.toggle('show')
 
 })
 
-window.addEventListener('load',()=>{
-
-
-})
 
 
 PROYECTObtn.addEventListener('click',(e)=>{
