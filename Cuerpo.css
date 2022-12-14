@@ -299,7 +299,7 @@ color:white;
        
 .Contacto{
  width:100%;
- margin-top:7em;
+ margin-top:5em;
  margin-bottom:2em;
  /* border:1px solid red; */
 /* border:1px solid; */
@@ -308,6 +308,7 @@ color:white;
 .titulo__Contacto{
 color:rgba(97, 92, 92, 0.663);
 text-align: center;
+margin-top: 3em;margin-bottom:2em;
 /* padding:1em; */
 }
 .Contacto form{
