@@ -26,7 +26,7 @@ padding:0.3em;
 font-family:apple-system;
 font-size:19px;
 justify-content:space-evenly;
-background:#333;
+background:rgb(34, 34, 34);
 text-align:center;
 color:white;
 }
@@ -42,11 +42,7 @@ margin-top:3px;
 
   
  }
- .btnProyectos{
 
-border:0.3px solid rgb(49, 50, 52);
-padding:0.4em;
- }
  .Logo:hover{
 font-size:30px;
 color:orange;
@@ -266,20 +262,24 @@ border-bottom:1px solid rgb(178, 172, 172);
   .Proyectos{
 width:500px;
 text-align:center;
+margin-top:10em;
   }
 .Tecnologias{
   width:600px;
 }
 .Conocimientos{
 font-weight:bold;
-
+padding:2em;
 }
+
 .Conocimientos:hover{
-background:black;
+background:rgb(52, 51, 51);
 color:white;
 
 
 }
+
+
        summary{
         width:300px;
         padding:0,0.2em 0 0.3em;
