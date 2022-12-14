@@ -193,13 +193,15 @@ border:7px white dashed;
 
 .parraB{
   
-  font-size:16px;
+  font-size:27px;
   font-style:italic;
   line-height:2em;
   list-style:square;
   
       }
-     
+      .titulo__sobremi{
+        font-size:34px;
+      }   
 
 .Nombre{
   
