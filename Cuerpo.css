@@ -147,20 +147,20 @@ color:white;
     }
     
     .Imagen{
-      max-width:400px;
-      min-width:100px;
+      max-width:450px;
+      
       }
 
 
 .sobremi{
 width:60%;
-min-width:350px;
+min-width:300px;
 
 margin:auto;
-margin-top:6em;
-margin-bottom:6em;
-padding-left:6em;
-padding-right:5em;
+margin-top:6em; 
+ margin-bottom:6em; 
+ padding-left:6em; 
+ padding-right:5em; 
 padding-top:2em;
 padding-bottom:1em;
 background:rgb(9, 155, 109);
@@ -180,7 +180,7 @@ border:7px white dashed;
   
       }
       .titulo__sobremi{
-        font-size:34px;
+        font-size:30px;
       }   
 
 .Nombre{
@@ -201,19 +201,13 @@ background:white;
 
 .herramientas{
 
-width:1000px;
 margin:auto;
-padding-bottom:;
 color:rgba(0, 0, 0, 0.645);
 align-items: center;
-
 justify-content:center;
 }
 
-.mostrarHerramientas{
-display:block;
 
-}
   .herramientas h4{
     font-size:26px;
   }
@@ -223,14 +217,16 @@ border-bottom:1px solid rgb(178, 172, 172);
 
   }
   .Proyectos{
-width:500px;
 text-align:center;
+padding:2em,0, 2em;
   }
 .Tecnologias{
-  width:600px;
+  padding:0;
+  /* width:600px; */
+  margin-bottom:2em ;
 }
 .Conocimientos{
-  width:700px;
+max-width:400px;
 font-weight:bold;
 padding:0.5em;
 margin-right:0;
@@ -260,8 +256,8 @@ color:white;
       
        
 .Contacto{
- width:100%;
- margin-top:5em;
+ width:90%;
+ /* margin-top:5em; */
  margin-bottom:2em;
  /* border:1px solid red; */
 /* border:1px solid; */
@@ -286,7 +282,6 @@ box-shadow: 1px solid #333 ;
 
 
 .input{
-  
   width:400px;
   padding:0.5em;
   border:1px solid rgb(154, 155, 156);
@@ -399,10 +394,15 @@ border-bottom:1px solid white ;
 
 .Biografia{
   width:100%;
-
-
+margin:0;
+/* border:1px solid red; */
  /* text-align: center; */
 
+}
+
+.parraB{
+
+  font-size:16px;
 }
 
 .saludar{
@@ -418,11 +418,11 @@ font-size:33px;
 font-weight:bold;
 }
 .sobremi{
-  width:100%;
-padding:1em;
-
+width:100%;
+padding:0;
 
 }
+
 
 .parraB{
 font-size:17px;
@@ -445,11 +445,13 @@ display: block;
   width:100%;
   margin: auto;
 /* text-align:center; */
-margin-top:2em;
+/* margin-top:2em; */
 }
 .Conocimientos{
+  width:300px;
 padding:0;
 margin-left:0 ;
+
 }
 
 
@@ -473,7 +475,9 @@ margin-top:0;
  
 }
 
-
+.Imagen{
+width:100%;
+}
 /* contacto celular */
 .Contacto{
   width:100%;
@@ -515,6 +519,8 @@ border:1px solid black;
   border-radius:2%;
   
 }
+
+
     }
 
 
