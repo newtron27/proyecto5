@@ -109,14 +109,14 @@ color:white;
 
   .Biografia{
     width:100%;
-     display:flex;
-     flex-wrap:wrap;
+     /* display:flex; */
+     /* flex-wrap:wrap; */
     }
 
     .saludar{
    
       width:90%;
-      height:600px;
+      height:400px;
       margin:auto;
       margin-top:9em;
       display:flex;
@@ -196,20 +196,6 @@ border:7px white dashed;
 background:white;
 } */
 
-.footer{
- width:100%;
-background:rgb(54, 52, 52);
-text-align: center;
-position:absolute;
-bottom:-100;
-color:white;
-/* visibility:hidden; */
-}
-
-.tituloFotter{
- /* color:white; */
- font-size:1.5em;
-}
 
 
 
@@ -217,14 +203,9 @@ color:white;
 
 width:1000px;
 margin:auto;
-display:flex;
-flex-wrap:wrap;
-  padding-bottom:2em;
+padding-bottom:;
 color:rgba(0, 0, 0, 0.645);
 align-items: center;
-/* border:1px solid red; */
-/* display:block; */
-margin-bottom:0;
 
 justify-content:center;
 }
@@ -244,14 +225,14 @@ border-bottom:1px solid rgb(178, 172, 172);
   .Proyectos{
 width:500px;
 text-align:center;
-margin-top:10em;
   }
 .Tecnologias{
   width:600px;
 }
 .Conocimientos{
+  width:700px;
 font-weight:bold;
-padding:2em;
+padding:0.5em;
 margin-right:0;
 }
 
@@ -289,7 +270,7 @@ color:white;
 .titulo__Contacto{
 color:rgba(97, 92, 92, 0.663);
 text-align: center;
-margin-top: 3em;margin-bottom:2em;
+/* margin-top: 3em;margin-bottom:2em; */
 /* padding:1em; */
 }
 .Contacto form{
@@ -343,6 +324,23 @@ margin-top:2em;
 border:NONE;
 
 }
+
+
+.footer{
+  width:100%;
+ background:rgb(54, 52, 52);
+ text-align: center;
+ position:absolute;
+ bottom:-100;
+ color:white;
+ /* visibility:hidden; */
+ }
+ 
+ .tituloFotter{
+ 
+  font-size:1.5em;
+ }
+ 
      /* "mediasqueris" */
     @media (max-width: 700px) {
     
