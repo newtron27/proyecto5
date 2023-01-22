@@ -10,9 +10,9 @@ box-sizing: border-box;
   --azul-celeste:#0087ff;
   --negro-claro:#444;
   /*tamaño de fuentes */
-  --font-48:3em;
-  --font-32:1.3em;
   --font-size-nav:1em;
+  --font-titulo-hero:2em;
+  --font-32:1.3em;
   --font-logo:1.5em;
 }
 *,
@@ -122,7 +122,7 @@ margin-top:0;
 margin-left:30%;
 text-align: center;
 color:var(--azul-celeste);
-font-size:var(--font-48);
+font-size:var(--font-titulo-hero);
 font-weight:bold;
 }
 
